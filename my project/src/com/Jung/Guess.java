@@ -6,7 +6,6 @@ import java.util.concurrent.SynchronousQueue;
 public class Guess {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		float secret;
 		int i =0 ;
