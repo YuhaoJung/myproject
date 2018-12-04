@@ -5,17 +5,20 @@ import java.util.Scanner;
 
 public class PokerGame {
 	
+	
+	
 	public static void main(String[] args) {
 		char[] flowers = {0x2660,0x2665,0x2666,0x2663};
-		int[] nums = new int[5];
-		nums [0] = 5 ;
-		nums [4] = 99;
 		for(int j = 0 ; j<=3; j++){
 			System.out.println("\n");
 			for(int i = 1; i<=13 ; i++){
 				System.out.print(flowers[j]+" "+i+"\t");
+				
+				Poker poker = new Poker();
+				poker.print();
 		}
 		}
+		
 	}
 	}
 //		for(int i = 0;i<nums.length;i++){
