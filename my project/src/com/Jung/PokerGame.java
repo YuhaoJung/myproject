@@ -7,7 +7,7 @@ public class PokerGame {
 	
 	
 	
-	public static void main(String[] args) {
+	public static void main(StringTest[] args) {
 		char[] flowers = {0x2660,0x2665,0x2666,0x2663};
 		for(int j = 0 ; j<=3; j++){
 			System.out.println("\n");

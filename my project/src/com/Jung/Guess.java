@@ -5,7 +5,7 @@ import java.util.concurrent.SynchronousQueue;
 
 public class Guess {
 
-	public static void main(String[] args) {
+	public static void main(StringTest[] args) {
 		Scanner scanner = new Scanner(System.in);
 		float secret;
 		int i =0 ;
